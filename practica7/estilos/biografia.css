@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+header{
+	width: 100%;
+	height: 400px;
+	background:url("../img/eizo.jpg"), yellow;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center-center;
+;
+}
+
+
+main{
+	width: 100%;
+	padding: 20px;
+	background: white;
+}
+
+main .foto{
+	width: 150px;
+	height: 100px;
+	background: gray;
+	border-radius: 100%;
+	margin-top: -100px;
+	margin-bottom: 10px;  
+
+}
+	
+
+
+
+/*en este espacio pondremos la foto dentro de la caja*/
+
+main .foto img{
+	width: 100%;
+	border-radius: 100%;
+
+}
+
+main .texto h3{
+	margin: 20px 0;
+
+}
+main .texto p{
+	line-height: 25px;
+
+}
+
+footer{
+	background: #9a031e;
+	padding: 35px;
+	text-align: center;
+	color: orange;
+}
+
+footer .rs a:hover{
+	color: blueviolet;
+	font-size: 30px;
+	transition: 0.5s;
+}
+.contenedor{
+width: 80%;
+margin: 0 auto;
+}
+
+
+body{
+	background: skyblue;
+	font-family: "Playwrite NZ Guides", cursive;
+}
+footer .boton{
+    text-align: center;
+
+}
+
+footer .boton a{
+ display: inline-block;
+text-decoration: none;
+color: white;
+background: #0095f5;
+padding: 5px 15px;
+border-radius: 5px;
+}
+
+footer .boton a:hover{
+    margin: auto px;
+    background: white;
+    transition: 0.5s;
+    color: black;
+}
+

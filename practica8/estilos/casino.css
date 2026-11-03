@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	background:url("../img/italia.jpg"), aquamarine;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+;
+}
+
+
+main{
+	width: 100%;
+	padding: 20px;
+	background: white;
+}
+
+main .foto{
+	width: 100px;
+	height: 150px;
+	background: gray;
+	border-radius: 100%;
+	margin-top: -90px;
+	margin-bottom: 10px;  
+	margin-left: auto;
+	margin-right: auto;
+	border-top: skyblue;
+
+
+ }
+
+	
+
+/*en este espacio pondremos la foto dentro de la caja circular*/
+
+main .foto img{
+	width: 100%;
+	border-radius: 120%;
+	border: 6.5px 
+	solid	rgb(255, 255, 2555);
+ }
+
+
+}
+
+main .texto h3{
+	margin: 10px 0%;
+
+}
+main .texto p{
+	line-height: 25px;
+
+}
+
+
+footer{
+
+	background: #119ebC;
+	padding: 50px;
+	text-align: center;
+	color: red;
+}
+
+footer .rs a:hover{
+	color: #f3de2c;
+	font-size: 40px;
+	transition: 0.5s;
+}
+.contenedor{
+width: 80%;
+margin: 0 auto;
+}
+
+.boton a{
+	background: teal;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	display: inline-block;
+	padding: 15px 10px;
+	border-radius: 5px;
+	text-align: center;
+
+
+}
+
+
+body{
+	background: #34E44e;
+  font-family: "Playwrite NZ Guides", monospace;
+ 
+}
+ 
+
+footer .boton a{
+ display: inline-block;
+text-decoration: none;
+color: white;
+background: orange;
+padding: 5px 15px;
+border-radius: 5px;
+}
+
+footer .boton a:hover{
+    margin: auto px;
+    background: white;
+    transition: 0.5s;
+    color: black;
+}

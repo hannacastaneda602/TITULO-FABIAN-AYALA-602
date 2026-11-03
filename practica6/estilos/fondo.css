@@ -1,0 +1,69 @@
+body{background: url("../img/fondo.png"),red;
+font-family: verdana;	
+
+ }
+
+
+
+ div{background: skyblue;
+ 	width:70%;
+ 	margin: 20px auto;
+ 	padding: 20px;
+ 	border-radius: 20px;
+ 	border: 15px solid gray ;
+ }
+ 
+ /*centrar titulo y justificar 
+ parrafos en cajaprincipal*/
+
+
+ .cajaprincipal h2{
+
+     text-align: center;
+ }
+
+
+.cajaprincipal p{
+	text-align: justify;
+ }
+
+
+
+ /*Centrar todo el texto de cajafinal*/
+
+
+ .cajafinal{
+ 	text-align: center;
+ }
+
+
+div:hover{
+ 	background: #09213f;
+ 	margin: auto px;
+ 	color: #390099;
+}
+
+footer .boton{
+    text-align: center;
+
+}
+
+footer .boton a{
+ display: inline-block;
+text-decoration: none;
+color: white;
+background: #00954f;
+padding: 5px 15px;
+border-radius: 5px;
+}
+
+footer .boton a:hover{
+    margin: auto px;
+    background: white;
+    transition: 0.8s;
+    color: black;
+}
+
+ 
+
+ 
